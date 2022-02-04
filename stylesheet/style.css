@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(246, 238, 255);
+}
+#nav-bar{
+    background-color: cadetblue;
+}
+.logo{
+    border-top: 9px solid rgba(0, 228, 0, 0.945);
+    border-bottom: 9px solid rgba(0, 228, 0, 0.945);
+    border-radius: 1em;
+    color: blue;
+    padding: 5px;
+}
+/* aft-slider line*/
+.aft-slider{
+    background-color: rgba(15, 0, 27, 0.664);
+    color: rgb(217, 254, 255);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.aft-slider p{
+    font-size: 2rem;
+}
+.aft-slider div{
+    font-size: 1.5rem;
+}
+/* UPDATE ("column") */
+.update-div{
+    /* display: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    background-color: rgb(246, 238, 255);
+    border: rgb(246, 238, 255);
+}
+.update{
+    /* width: 25rem; */
+    text-align: center;
+    border: 2px solid darkgray;
+    background-color: rgb(211, 209, 182);
+    padding: 1rem;
+    border-radius: 5px;
+}
+/* card */
+#card-heading{
+    color: darkblue;
+}
+.card-li{
+    color: darkmagenta;
+}
+/* cards pading */
+#card-line-bg{
+    background-color: rgb(255, 241, 223);
+}
+#product-1-img{
+    /* padding: 0px 30px; */
+    /* width: 270px; */
+    /* height: 250px; */
+    align-items: center
+}
+@media only screen and (max-width=320px){
+    #product-1-img{
+        padding-left: 50px;
+        width: 200px;
+        height: 100px;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:375px){
+    #product-1-img{
+        padding-left: 80px;
+        width: 215px;
+        height: 230px;
+    }
+}
+@media (min-width:376px) and (max-width:425px){
+    #product-1-img{
+        padding-left: 100px;
+        width: 220px;
+        height: 230px;
+    }
+}
+@media (min-width:426px) and (max-width:768px){
+    #product-1-img{
+        padding-left: 40px;
+        width: 150px;
+        height: 200px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    #product-1-img{
+        padding-left: 80px;
+        width: 200px;
+        height: 220px;
+    }
+}
+@media (min-width:1025px){
+    #product-1-img{
+        padding-left: 120px;
+        width: 290px;
+        height: 330px;
+    }
+}
+/* bottom-dev */
+.bottomAboutUs{
+    text-align: center;
+    color: rgb(255, 192, 169);
+}
+.bottomAboutUsContent{
+    color: rgb(152, 193, 255);
+    text-align: center;
+}
+.bottom-dev{
+    background-color: rgba(0, 15, 0, 0.918);
+    color: white;
+    /* padding-top: -3rem; */
+    padding: 3rem 6rem;
+}
+.Go-Top{
+    text-align: center;
+}
+.Go-Top-Button{
+    color: rgb(166, 197, 255);
+    background-color: rgb(0, 36, 109);
+    padding: 0.4rem 3rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.Go-Top-Button :hover{
+    color: rgb(35, 110, 250);
+    background-color: rgb(166, 196, 255);
+    padding: 0.5rem 3.2rem;
+}
+.final-bottom{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+
+/* -------------login.html------------- */
+/* Welcome Background Image */
+.bgOfWelcomeImg{
+    /* background-image: url(stylesheet/welcome-img.png); */
+    max-width: 100px;
+    min-width: 300px;
+}
+.image-cover{
+    width: 100%;
+    /* height: 700px; */
+}
+/* .form-card-border{
+    border: 4rem solid rgb(225, 233, 255);
+} */
